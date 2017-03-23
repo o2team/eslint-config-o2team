@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-o2team",
+  "version": "0.1.0",
+  "description": "ESLint Shareable Config for the O2Team Javascript Style Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*.js"
+  },
+  "files": [
+    "index.js",
+    "legacy.js"
+  ],
+  "repository": "o2team/eslint-config-o2team",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "o2team"
+  ],
+  "author": "O2Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o2team/eslint-config-o2team/issues"
+  },
+  "homepage": "https://github.com/o2team/eslint-config-o2team",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.18.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.18.0"
+  }
+}
