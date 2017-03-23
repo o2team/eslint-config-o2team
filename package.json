@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-o2team",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint Shareable Config for the O2Team Javascript Style Guide",
   "main": "index.js",
   "scripts": {
