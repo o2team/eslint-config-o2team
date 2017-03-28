@@ -10,11 +10,15 @@ module.exports = {
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 8,
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    }
   },
   env: {
     browser: true,
     node: true,
+    es6: true,
     amd: false,
     mocha: false,
     jasmine: false
