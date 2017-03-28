@@ -19,7 +19,7 @@ module.exports = {
     'no-restricted-globals': 'off',
 
     // disallow variable declarations from shadowing variables declared in the outer scope
-    'no-shadow': 'error',
+    'no-shadow': 'off',
 
     // disallow shadowing of restricted names
     'no-shadow-restricted-names': 'error',

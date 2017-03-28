@@ -19,7 +19,7 @@ module.exports = {
     'complexity': 'off',
 
     // require return statements to either always or never specify values
-    'consistent-return': 'error',
+    'consistent-return': 'off',
 
     // require following curly brace conventions
     'curly': ['error', 'multi-line'],
@@ -38,7 +38,7 @@ module.exports = {
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
 
     // require guarding for-in
-    'guard-for-in': 'error',
+    'guard-for-in': 'off',
 
     // disallow the use of alert, confirm, and prompt
     'no-alert': 'off',
@@ -160,10 +160,6 @@ module.exports = {
     }, {
       property: '__defineSetter__',
       message: 'Please use Object.defineProperty instead.',
-    }, {
-      object: 'Math',
-      property: 'pow',
-      message: 'Use the exponentiation operator (**) instead.',
     }],
 
     // disallow assignment in return statement

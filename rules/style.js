@@ -94,13 +94,7 @@ module.exports = {
     'max-depth': 'off',
 
     // enforce a maximum line length
-    'max-len': ['error', 100, 2, {
-      ignoreUrls: true,
-      ignoreComments: false,
-      ignoreRegExpLiterals: true,
-      ignoreStrings: true,
-      ignoreTemplateLiterals: true,
-    }],
+    'max-len': 'off',
 
     // enforce a maximum file length
     'max-lines': 'off',
@@ -121,7 +115,7 @@ module.exports = {
     'multiline-ternary': 'off',
 
     // require constructor names to begin with a capital letter
-    'new-cap': 'error',
+    'new-cap': ['error', { 'newIsCap': true, 'capIsNew': false }],
 
     // require parentheses when invoking a constructor with no arguments
     'new-parens': 'error',
@@ -196,7 +190,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
 
     // disallow dangling underscores in identifiers
-    'no-underscore-dangle': 'error',
+    'no-underscore-dangle': 'off',
 
     // disallow ternary operators when simpler alternatives exist
     'no-unneeded-ternary': ['error', { defaultAssignment: false }],
@@ -219,7 +213,7 @@ module.exports = {
     }],
 
     // enforce variables to be declared either together or separately in functions
-    'one-var': ['error', 'never'],
+    'one-var': ['error', { initialized: 'never' }],
 
     // require or disallow newlines around variable declarations
     'one-var-declaration-per-line': 'off',

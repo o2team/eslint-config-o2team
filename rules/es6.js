@@ -69,10 +69,7 @@ module.exports = {
     }],
 
     // suggest using arrow functions as callbacks
-    'prefer-arrow-callback': ['error', {
-      allowNamedFunctions: false,
-      allowUnboundThis: true,
-    }],
+    'prefer-arrow-callback': 'off',
 
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': ['error', {
@@ -90,7 +87,7 @@ module.exports = {
     'prefer-rest-params': 'error',
 
     // suggest using the spread operator instead of .apply()
-    'prefer-spread': 'error',
+    'prefer-spread': 'warn',
 
     // suggest using template literals instead of string concatenation
     'prefer-template': 'error',
