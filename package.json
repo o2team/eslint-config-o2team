@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-o2team",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ESLint Shareable Config for the O2Team Javascript Style Guide",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/o2team/eslint-config-o2team",
   "devDependencies": {
-    "ava": "^0.18.2",
-    "eslint": "^3.18.0"
+    "ava": "^3.5.2",
+    "eslint": "^6.8.0"
   },
   "peerDependencies": {
     "eslint": ">=3.18.0"

@@ -9,16 +9,20 @@ module.exports = {
     './rules/es6'
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 2019,
     sourceType: 'module',
     ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    }
+      globalReturn: false,
+      impliedStrict: true,
+      jsx: true,
+    },
+    requireConfigFile: false,
   },
   env: {
     browser: true,
     node: true,
     es6: true,
+    commonjs: true,
     amd: false,
     mocha: false,
     jasmine: false

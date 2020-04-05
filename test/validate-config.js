@@ -1,7 +1,7 @@
-import fs from 'fs'
-import path from 'path'
-import test from 'ava'
-import eslint from 'eslint'
+const test = require('ava')
+const fs = require('fs')
+const path = require('path')
+const eslint = require('eslint')
 
 const CLIEngine = eslint.CLIEngine
 const files = {}

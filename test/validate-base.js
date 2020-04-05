@@ -1,6 +1,6 @@
-import index from '../'
-import legacy from '../legacy'
-import test from 'ava'
+const test = require('ava')
+const index = require('../')
+const legacy = require('../legacy')
 
 test('test basic properties of eslint config - index.js', t => {
   t.truthy(isArray(index.extends))
